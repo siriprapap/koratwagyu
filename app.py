@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # โหลดโมเดล
-model = tf.keras.models.load_model('koratcattle.py')
+model = tf.keras.models.load_model('KoratCattle.h5')
 
 # ส่วนหัวเว็บ
 st.title("ทำนายน้ำหนักวัวจากภาพ")
